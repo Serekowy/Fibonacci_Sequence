@@ -21,7 +21,7 @@ public class FibonacciSequence {
         int[] fibonacci = new int[size];
         int lastSum = 1;
         int lastSum1 = 1;
-        int finalSum = 0;
+        int finalSum;
 
         for (int i = 0; i < size; i++) {
             if (i <= 2) {
