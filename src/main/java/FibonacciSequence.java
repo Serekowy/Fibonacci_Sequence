@@ -20,7 +20,7 @@ public abstract class FibonacciSequence {
     }
 
     public static void sequence(List<Integer> fibonacci, int size) {
-        int result = 0;
+        int result;
 
         for (int i = 3; i < size; i++) {
             result = fibonacci.get(i-2) + fibonacci.get(i-1);
